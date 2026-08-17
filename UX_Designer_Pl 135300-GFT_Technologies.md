@@ -1,4 +1,4 @@
-```markdown
+
 ## Maick Fonseca Maia  
 Curitiba, Paraná • (41) 99863‑8382 • maickfmaia@gmail.com • [maickfmaia.com](http://maickfmaia.com) • [linkedin.com/in/maick-maia](http://linkedin.com/in/maick-maia)
 
@@ -44,4 +44,3 @@ Designer de Produto com **5 anos de experiência**, focado em **UX/UI**, **Des
 - **UX:** User Research, Personas, Wireframing, Prototyping, Usability Testing, Heuristics Evaluation.  
 - **Metodologias:** Agile (Scrum, Kanban), Design Thinking, Lean UX.  
 - **Design Systems:** Criação de tokens, componentes reutilizáveis, documentação de guidelines.  
-```
