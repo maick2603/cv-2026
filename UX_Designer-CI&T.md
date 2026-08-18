@@ -42,7 +42,3 @@ Product Designer com 5 anos de experiência focado em **UX/UI**, **Design Syst
 - **Front‑end:** HTML, CSS, JavaScript, React, Tailwind CSS.  
 - **UX:** User Research, Wireframing, Prototyping, Usability Testing, Responsive Design.  
 - **Metodologias:** Agile, Scrum, Kanban, Design Thinking, Data‑Driven Design.  
-
----  
-
-**Palavras‑chave alinhadas à vaga:** Product Designer, UX/UI, Design Systems, Figma, Prototyping, User Research, Usability Testing, Agile, Scrum, Cross‑functional collaboration, Front‑end development, Responsive design, Manufacturing digital solutions.
