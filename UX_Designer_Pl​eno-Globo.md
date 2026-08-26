@@ -1,4 +1,4 @@
-```markdown
+
 ## Maick Fonseca Maia
 Curitiba, Paraná • (41) 99863‑8382 • maickfmaia@gmail.com • [maickfmaia.com](http://maickfmaia.com) • [linkedin.com/in/maick-maia](http://linkedin.com/in/maick-maia)
 
@@ -49,4 +49,3 @@ Product Designer com 5 anos de experiência liderando iniciativas de **UX/UI**
 **Idiomas:** Português (nativo) | Inglês (avançado)
 
 **Disponibilidade:** Imediata para atuação remota ou híbrida.
-```
