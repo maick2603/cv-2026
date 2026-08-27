@@ -1,0 +1,373 @@
+# Canonical facts for Maick Fonseca Maia.
+# Dates: Radix 2026 (ignore the Revolut-file bug of mar/2023).
+# Experience bullets are keyed records. Do not invent metrics.
+# A metric with unverified: true must never appear in a job cv.md.
+
+identity:
+  name: Maick Fonseca Maia
+  title: Product Designer
+  title_aliases:
+    - Product Designer
+    - UX/UI Designer
+    - Design System Designer
+  location: Curitiba, Paraná, Brazil
+  phone: "+55 41 99863-8382"
+  email: maickfmaia@gmail.com
+  website: https://maickfmaia.com
+  linkedin: https://linkedin.com/in/maick-maia
+
+languages:
+  portuguese: native
+  english: advanced
+
+seniority:
+  years: 5
+  ds_ownership: true
+  # 5 years + DS ownership → Senior no header só se a vaga for senior.
+  senior_eligible: true
+
+availability:
+  work_modes:
+    - remote
+  start: immediate
+
+education:
+  - institution: UTFPR
+    degree: Bacharelado
+    field: Design
+    start: 2018
+    end: 2022
+    bullets:
+      - pt: "Metodologias de design centrado no usuário (pesquisa, personas, jornadas, testes)."
+        en: "User-centered design methods (research, personas, journeys, testing)."
+
+# Employment timeline — golden rule applies to these dates.
+roles:
+  - id: radix
+    company: Radix
+    role: UX/UI Designer
+    work_mode: remote
+    start: 2026-03
+    end: present
+  - id: vetta
+    company: Vetta
+    role: Product Designer
+    work_mode: remote
+    start: 2021-09
+    end: 2026-03
+  - id: utfpr-web
+    company: UTFPR
+    role: Web Designer
+    work_mode: on-site
+    start: 2019-02
+    end: 2021-09
+  - id: nos
+    company: "Nós – Nosso Olhar Solidário"
+    role: Product Designer
+    volunteer: true
+    work_mode: on-site
+    start: 2020-11
+    end: 2021-09
+
+awards:
+  - name: iF Social Impact 2021
+    related_experience: nos-if-prize
+    year: 2021
+
+skills:
+  tools:
+    - Figma
+    - Docusaurus
+    - HTML
+    - CSS
+    - JavaScript
+    - React
+    - Tailwind
+    - WordPress
+    - Moodle
+    - Adobe XD
+    - Photoshop
+    - Illustrator
+  methods:
+    - user research
+    - usability testing
+    - wireframing
+    - prototyping
+    - Design Thinking
+    - Agile
+    - Scrum
+    - Kanban
+    - Design Ops
+    - Lean UX
+  domains:
+    - Design System
+    - tokens
+    - MES
+    - manufacturing
+    - digital transformation
+    - data-grid
+    - industrial
+    - accessibility
+  # JD phrasing → canonical keyword already in tools/methods/domains or experience.keywords
+  aliases:
+    "design tokens": tokens
+    "tokens de design": tokens
+    "design token": tokens
+    "design systems": Design System
+    "design system": Design System
+    "sistemas de design": Design System
+    "tokens studio": tokens
+    "figma variables": tokens
+    "user research": user research
+    "pesquisa de usuários": user research
+    "pesquisa com usuário": user research
+    "pesquisa com usuarios": user research
+    "ux research": user research
+    "usability testing": usability testing
+    "testes de usabilidade": usability testing
+    "usability test": usability testing
+    "manufacturing execution system": MES
+    "manufacturing execution systems": MES
+    "design ops": Design Ops
+    "designops": Design Ops
+    "data grid": data-grid
+    "datagrid": data-grid
+    "data grids": data-grid
+    "html/css": HTML
+    "html5": HTML
+    "css3": CSS
+    "tailwind css": Tailwind
+    "react.js": React
+    "scrum/kanban": Agile
+    "ágil": Agile
+    "agile": Agile
+    "wcag": accessibility
+    "acessibilidade": accessibility
+    "digital transformation": digital transformation
+    "transformação digital": digital transformation
+  # Só no CV Revolut, "conhecimento básico". Nunca stuffing.
+  optional_weak:
+    - sketch
+
+# Keyed experience points. text_* distilled from archive CVs unless noted.
+experience:
+  - id: radix-manufacturing-dt
+    company: Radix
+    role_id: radix
+    text_pt: "Lidero a concepção e evolução de uma plataforma internacional de transformação digital para manufatura, alinhando pesquisa, jornadas e interfaces dos módulos."
+    text_en: "Lead the conception and evolution of an international manufacturing digital-transformation platform, aligning research, journeys, and module interfaces."
+    keywords:
+      - digital transformation
+      - manufacturing
+      - UX/UI
+      - jornadas
+      - usabilidade
+    metrics: []
+
+  - id: radix-design-system
+    company: Radix
+    role_id: radix
+    text_pt: "Coordeno a documentação de padrões visuais e a implementação de tokens de design, reforçando a coerência do Design System em toda a solução."
+    text_en: "Coordinate visual-pattern documentation and design-token implementation, reinforcing Design System coherence across the solution."
+    keywords:
+      - Design System
+      - tokens
+      - documentation
+      - Figma
+    metrics: []
+
+  - id: radix-user-research
+    company: Radix
+    role_id: radix
+    text_pt: "Realizo análise de problemas, definição de jornadas e testes de usabilidade; traduzo insights em requisitos de interface alinhados a negócio."
+    text_en: "Run problem analysis, journey definition, and usability testing; turn insights into interface requirements aligned to the business."
+    keywords:
+      - user research
+      - usability testing
+      - jornadas
+      - prototipagem
+      - Figma
+    metrics: []
+
+  - id: vetta-mes-modules
+    company: Vetta
+    role_id: vetta
+    text_pt: "Projetei interfaces de sistemas MES (Manufacturing Execution System) que reduziram 25% o tempo de desenvolvimento de novos módulos."
+    text_en: "Designed MES (Manufacturing Execution System) interfaces that cut new-module development time by 25%."
+    keywords:
+      - MES
+      - Manufacturing Execution System
+      - industrial
+      - interfaces
+      - Design System
+    metrics:
+      - text: "25% de redução no tempo de desenvolvimento de novos módulos"
+        value: 25
+        unit: percent
+        unverified: false
+        # Presente nos 6 CVs de archive.
+
+  - id: vetta-plasma-tokens
+    company: Vetta
+    role_id: vetta
+    # Nome Plasma UI não aparece nos CVs de archive (falam "Design System da empresa").
+    # Trabalho real do stack; sem métrica inventada.
+    text_pt: "Auditei e tokenizei o Plasma UI (design system da Vetta): tokens, templates, patterns e processos para consistência visual nos produtos."
+    text_en: "Audited and tokenized Plasma UI (Vetta's design system): tokens, templates, patterns, and processes for visual consistency across products."
+    keywords:
+      - Plasma UI
+      - design system
+      - tokens
+      - Figma
+      - documentation
+      - Docusaurus
+    metrics: []
+
+  - id: vetta-data-grid
+    company: Vetta
+    role_id: vetta
+    # data-grid não é nomeado nos CVs de archive; faz parte das interfaces MES industriais.
+    text_pt: "Desenhei padrões de data-grid para interfaces MES, com densidade de informação industrial e consistência no Design System."
+    text_en: "Designed data-grid patterns for MES interfaces, with industrial information density and Design System consistency."
+    keywords:
+      - data-grid
+      - MES
+      - Design System
+      - industrial
+    metrics: []
+
+  - id: vetta-docusaurus
+    company: Vetta
+    role_id: vetta
+    text_pt: "Utilizei Figma para prototipagem avançada e Docusaurus para documentação técnica, alinhando design, desenvolvimento e negócio."
+    text_en: "Used Figma for advanced prototyping and Docusaurus for technical documentation, aligning design, engineering, and business."
+    keywords:
+      - Figma
+      - Docusaurus
+      - documentation
+      - prototipagem
+    metrics: []
+
+  - id: vetta-user-research
+    company: Vetta
+    role_id: vetta
+    text_pt: "Conduzi sessões de user research, testes de usabilidade e iterações baseadas em métricas, com decisões de design orientadas a dados."
+    text_en: "Ran user-research sessions, usability tests, and metric-based iterations, keeping design decisions data-informed."
+    keywords:
+      - user research
+      - usability testing
+      - data-driven
+    metrics: []
+
+  - id: vetta-agile-designops
+    company: Vetta
+    role_id: vetta
+    text_pt: "Atuei em squads ágeis (Scrum/Kanban) com PO, front-end (React, Tailwind) e QA, com práticas de Design Ops no handoff design–dev."
+    text_en: "Worked in Agile squads (Scrum/Kanban) with PM, front-end (React, Tailwind) and QA, using Design Ops practices in the design–dev handoff."
+    keywords:
+      - Agile
+      - Scrum
+      - Kanban
+      - Design Ops
+      - React
+      - Tailwind
+    metrics: []
+
+  - id: utfpr-wordpress
+    company: UTFPR
+    role_id: utfpr-web
+    text_pt: "Desenvolvi layouts responsivos em WordPress para a Coordenação de Tecnologia na Educação, com acessibilidade e experiência consistente."
+    text_en: "Built responsive WordPress layouts for the Educational Technology office, with accessibility and consistent UX."
+    keywords:
+      - WordPress
+      - HTML
+      - CSS
+      - accessibility
+      - layouts responsivos
+    metrics: []
+
+  - id: utfpr-moodle-sophia
+    company: UTFPR
+    role_id: utfpr-web
+    text_pt: "Criei identidade visual e tema customizado para o Moodle do portal Sophia, suportando mais de 30 cursos e melhorando a navegação interna."
+    text_en: "Created the visual identity and a custom Moodle theme for the Sophia portal, supporting 30+ courses and improving internal navigation."
+    keywords:
+      - Moodle
+      - identidade visual
+      - HTML
+      - CSS
+    metrics:
+      - text: "mais de 30 cursos no portal Sophia"
+        value: 30
+        unit: courses
+        unverified: false
+        # Presente nos 6 CVs de archive.
+
+  - id: nos-if-prize
+    company: "Nós – Nosso Olhar Solidário"
+    role_id: nos
+    text_pt: "Prototipei e validei as duas primeiras releases de uma plataforma de conexão entre instituições de caridade e doadores, resultando no prêmio iF Social Impact 2021."
+    text_en: "Prototyped and validated the first two releases of a platform connecting charities and donors, contributing to the iF Social Impact 2021 award."
+    keywords:
+      - prototyping
+      - iF Social Impact
+      - product design
+    metrics: []
+
+  - id: nos-usability
+    company: "Nós – Nosso Olhar Solidário"
+    role_id: nos
+    text_pt: "Conduzi testes de usabilidade com usuários reais, iterando as releases da plataforma de doação."
+    text_en: "Ran usability tests with real users, iterating the donation-platform releases."
+    keywords:
+      - usability testing
+      - user research
+    metrics: []
+
+# Números que aparecem em um CV só, ou conflitam entre CVs.
+# Nunca copiar para template / cv.md.
+unverified_metrics:
+  - id: radix-iteration-20
+    appears_in: [archive/2026-gft-ux-pleno.md]
+    note: "Radix — 20% menos tempo de iteração (GFT). Outros CVs dizem 30% de validação (Jobgether, PremierSoft, Revolut) ou 20% de dev de recursos (Globo)."
+    unverified: true
+  - id: radix-nps-15
+    appears_in: [archive/2026-globo-ux-pleno.md]
+    note: "Radix — NPS +15 pontos. Só Globo."
+    unverified: true
+  - id: radix-ops-18
+    appears_in: [archive/2026-premiersoft-ux-pleno.md]
+    note: "Radix — 18% eficiência operativa. Só PremierSoft."
+    unverified: true
+  - id: vetta-ds-consistency
+    appears_in:
+      - archive/2026-globo-ux-pleno.md
+      - archive/2026-jobgether-analista-ux.md
+      - archive/2026-premiersoft-ux-pleno.md
+      - archive/2026-revolut-platform.md
+    note: "Vetta DS — consistência visual 30% (Globo) vs 40% (Jobgether, PremierSoft, Revolut). Conflito → não usar."
+    unverified: true
+  - id: utfpr-conversion-18
+    appears_in: [archive/2026-globo-ux-pleno.md]
+    note: "UTFPR WordPress — conversão de visitas +18%. Só Globo."
+    unverified: true
+  - id: utfpr-users-5k
+    appears_in: [archive/2026-jobgether-analista-ux.md]
+    note: "UTFPR — 5 mil usuários. Só Jobgether."
+    unverified: true
+  - id: utfpr-engagement-22
+    appears_in: [archive/2026-premiersoft-ux-pleno.md]
+    note: "UTFPR Moodle — engajamento +22%. Só PremierSoft."
+    unverified: true
+  - id: utfpr-abandon-15
+    appears_in: [archive/2026-revolut-platform.md]
+    note: "UTFPR — taxa de abandono −15%. Só Revolut."
+    unverified: true
+  - id: nos-engagement-22
+    appears_in: [archive/2026-globo-ux-pleno.md]
+    note: "Nós — engajamento +22%. Só Globo."
+    unverified: true
+  - id: nos-conversion-20
+    appears_in: [archive/2026-revolut-platform.md]
+    note: "Nós — conversão de doadores +20%. Só Revolut."
+    unverified: true
