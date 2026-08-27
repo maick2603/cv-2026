@@ -20,3 +20,5 @@ archive/              ← os 6 arquivos atuais, sem reescrever o corpo
 Tailor = reordenar bullets e trocar o resumo. Não inventar datas nem métricas.
 
 Intake do digest: URL + 3 must-haves → `job.md` → escolher template → `cv.md`. Sem PDF, auto-apply ou scraping na v1.
+
+Fases de implementação: issue pai [#9](https://github.com/maick2603/cv-2026/issues/9).

@@ -124,13 +124,21 @@ Não implementar script nesta fase. Script opcional de “stamp folder” é a f
 
 ## 6. Fases (issues)
 
-Cada issue deve linkar este `PLAN.md` como pai. Labels sugeridas: `phase`, `documentation` / `enhancement`.
+Pai: [#9 Epic](https://github.com/maick2603/cv-2026/issues/9). Cada filha aponta para este `PLAN.md`. Títulos prefixados (`[phase-N]`); labels do repo: `documentation` / `enhancement` (não foi possível criar labels novas com o token deste agente).
 
-### Fase 1 — `profile.yaml` canônico
+| Fase | Issue |
+|---|---|
+| 1 profile.yaml | [#8](https://github.com/maick2603/cv-2026/issues/8) |
+| 2 pastas + migrate | [#4](https://github.com/maick2603/cv-2026/issues/4) |
+| 3 templates | [#5](https://github.com/maick2603/cv-2026/issues/5) |
+| 4 intake | [#6](https://github.com/maick2603/cv-2026/issues/6) |
+| 5 stamp (opcional) | [#7](https://github.com/maick2603/cv-2026/issues/7) |
+
+### Fase 1 — `profile.yaml` canônico ([#8](https://github.com/maick2603/cv-2026/issues/8))
 
 Extrair identidade, cargos, **datas reconciliadas** (corrigir o bug Revolut), educação, idiomas, stack. Listar bullets que aparecem em vários CVs; **métricas só entram se forem as mesmas em todas as fontes ou se houver evidência**. O que divergir fica de fora ou marcado `unverified: true` até o Maick confirmar — nunca no `cv.md`.
 
-### Fase 2 — Convenção de pastas + migrate
+### Fase 2 — Convenção de pastas + migrate ([#4](https://github.com/maick2603/cv-2026/issues/4))
 
 Criar `templates/`, `jobs/`, `archive/`. Mover os seis arquivos para `archive/` **sem editar o corpo**. Tabela de mapeamento (destino sugerido):
 
@@ -145,15 +153,15 @@ Criar `templates/`, `jobs/`, `archive/`. Mover os seis arquivos para `archive/` 
 
 Depois da migrate, apagar as pastas acidentais `UX/` e `Analista_UX/` se ficarem vazias. ASCII only nos nomes novos.
 
-### Fase 3 — Quatro templates
+### Fase 3 — Quatro templates ([#5](https://github.com/maick2603/cv-2026/issues/5))
 
 Redigir `pd-senior.md`, `pd-pleno.md`, `design-system.md`, `ux-en.md` **somente** com fatos do `profile.yaml`. Diferenças: resumo, ordem de seções (ex.: DS no topo no `design-system`), idioma no `ux-en`, densidade de bullets no sênior vs pleno.
 
-### Fase 4 — Checklist de intake
+### Fase 4 — Checklist de intake ([#6](https://github.com/maick2603/cv-2026/issues/6))
 
 Documento curto (pode viver neste PLAN ou em `jobs/README.md`): como uma linha do digest vira uma pasta `jobs/…`. Campos obrigatórios, escolha de template, regra de ouro (não inventar), e quando mudar `STATUS`.
 
-### Fase 5 — Opcional, depois
+### Fase 5 — Opcional, depois ([#7](https://github.com/maick2603/cv-2026/issues/7))
 
 Script mínimo que cria `jobs/YYYY-MM-slug/` a partir de um template (copiar arquivos, preencher placeholders). **Não** gera o texto do CV. Sem CI.
 
@@ -164,4 +172,4 @@ Script mínimo que cria `jobs/YYYY-MM-slug/` a partir de um template (copiar arq
 - [x] `PLAN.md` (este arquivo)
 - [x] `README.md` apontando para o plano e a árvore
 - [x] Stubs: `profile.yaml` (chaves, sem métricas inventadas) e `jobs/_example/job.md`
-- [ ] Issues de fase abertas neste repo, linkadas no corpo do PR
+- [x] Issues de fase abertas neste repo, linkadas no corpo do PR (#9 pai; #8 #4 #5 #6 #7)
