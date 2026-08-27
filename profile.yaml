@@ -1,0 +1,74 @@
+# Canonical facts for Maick Fonseca Maia.
+# Fill remaining fields in phase 1. Do not invent metrics.
+# Dates below match the reconciled timeline (Radix 2026, not the Revolut-file bug).
+
+identity:
+  name: Maick Fonseca Maia
+  title: Product Designer
+  location: Curitiba, Paraná, Brazil
+  phone: ""
+  email: ""
+  website: ""
+  linkedin: ""
+
+languages:
+  portuguese: native
+  english: advanced
+
+availability:
+  work_modes: [] # remote | hybrid Curitiba | hybrid SP | intl remote
+  start: ""
+
+education:
+  - institution: UTFPR
+    degree: ""
+    field: Design
+    start: 2018
+    end: 2022
+    bullets: []
+
+experience:
+  - company: Radix
+    role: UX/UI Designer
+    work_mode: remote
+    start: 2026-03
+    end: present
+    bullets: [] # only verified bullets from phase 1
+
+  - company: Vetta
+    role: Product Designer
+    work_mode: remote
+    start: 2021-09
+    end: 2026-03
+    bullets: []
+
+  - company: UTFPR
+    role: Web Designer
+    work_mode: ""
+    start: 2019-02
+    end: 2021-09
+    bullets: []
+
+  - company: Nós – Nosso Olhar Solidário
+    role: Product Designer
+    volunteer: true
+    work_mode: ""
+    start: 2020-11
+    end: 2021-09
+    bullets: []
+
+awards:
+  - name: iF Social Impact 2021
+    related_experience: Nós – Nosso Olhar Solidário
+    year: 2021
+
+skills:
+  tools: [] # Figma, tokens/DS, Docusaurus, …
+  frontend: [] # HTML, CSS, JS, React, Tailwind
+  ux: []
+  methodologies: []
+  design_systems: []
+
+# Metrics and extra bullets stay empty until phase 1 reconciles drift.
+# Never copy a number into a job CV unless it lives here without unverified: true.
+metrics: []
