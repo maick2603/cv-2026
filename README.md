@@ -1,24 +1,26 @@
 # cv-2026
 
-CVs de **Maick Fonseca Maia** (Product Designer, Curitiba).
+CVs de Maick Fonseca Maia (Product Designer, Curitiba).
 
-Este repo ainda é um conjunto de currículos, não um produto. O desenho do fluxo (um CV por vaga, sem drift de datas) está em **[PLAN.md](./PLAN.md)**.
+O plano (um CV por vaga a partir do digest, sem drift de datas) está em **[PLAN.md](./PLAN.md)**.
 
-## Agora
+Os seis CVs atuais estão em `archive/` (corpos intactos; só o caminho/nome mudou):
 
-Seis Markdowns soltos na raiz e em pastas acidentais (`UX/`, `Analista_UX/`), nomeados `{Role}-{Company}.md`. São o histórico; a migrate para `archive/` é uma fase posterior.
+| Antes | Agora |
+|---|---|
+| `Product_Designer_(Platform)-Revolut.md` | [archive/2026-revolut-platform.md](./archive/2026-revolut-platform.md) |
+| `UX_Designer-CI&T.md` | [archive/2026-cit-ux.md](./archive/2026-cit-ux.md) |
+| `UX_Designer_Pleno-Globo.md` | [archive/2026-globo-ux-pleno.md](./archive/2026-globo-ux-pleno.md) |
+| `UX_Designer_Pl 135300-GFT_Technologies.md` | [archive/2026-gft-ux-pleno.md](./archive/2026-gft-ux-pleno.md) |
+| `UX/UI_Designer_Pleno-PremierSoft.md` | [archive/2026-premiersoft-ux-pleno.md](./archive/2026-premiersoft-ux-pleno.md) |
+| `Analista_UX/UI_-_Pleno-Jobgether.md` | [archive/2026-jobgether-analista-ux.md](./archive/2026-jobgether-analista-ux.md) |
 
-## Pretendido (depois das fases do plano)
+Fases do plano:
 
-```
-profile.yaml          ← fatos canônicos (única fonte de verdade)
-templates/            ← pd-senior, pd-pleno, design-system, ux-en
-jobs/YYYY-MM-slug/    ← job.md + cv.md + STATUS (draft|sent|closed)
-archive/              ← os 6 arquivos atuais, sem reescrever o corpo
-```
+1. [#8](https://github.com/maick2603/cv-2026/issues/8) — `profile.yaml` canônico
+2. [#4](https://github.com/maick2603/cv-2026/issues/4) — pastas + migrate para `archive/`
+3. [#5](https://github.com/maick2603/cv-2026/issues/5) — quatro templates
+4. [#6](https://github.com/maick2603/cv-2026/issues/6) — checklist de intake
+5. [#7](https://github.com/maick2603/cv-2026/issues/7) — (depois) script `new-job.sh`
 
-Tailor = reordenar bullets e trocar o resumo. Não inventar datas nem métricas.
-
-Intake do digest: URL + 3 must-haves → `job.md` → escolher template → `cv.md`. Sem PDF, auto-apply ou scraping na v1.
-
-Fases de implementação: issue pai [#9](https://github.com/maick2603/cv-2026/issues/9).
+Pai: [#9](https://github.com/maick2603/cv-2026/issues/9).
